@@ -1,8 +1,12 @@
 import React from 'react';
 import Dog from './Dog';
+import Header from './Header';
 
 export default function App(){
   return (
-    <Dog name="spot" age={5} weight="20 lbs" />
+    <>
+      <Header />
+      <Dog name="spot" age={5} weight="20 lbs" />
+    </>
   );
 }
