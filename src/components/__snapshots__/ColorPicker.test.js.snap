@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color Picker renders a Color Button 1`] = `
+<button
+  className="red"
+  onClick={[Function]}
+>
+  red
+</button>
+`;
